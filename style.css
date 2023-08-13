@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    background-color: #9acef1;
+    color: #222;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url("Image/CTA-Logo.png");
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+  }
+.title {
+    color: #222;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+.sub-title{
+  text-align: center;
+  color: #7a4522;
+}
+.temperature-converter {
+    background: #ecebeb;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 25px 20px;
+    min-width: 200px;
+    width: 100%;
+    height: auto;
+  }
+.result {
+    text-align: center;
+    margin: 15px 0;
+  }
+.result-heading {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+.celsius-value {
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+  }
+label {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+input,select {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    padding: 8px 0px 8px 0px;
+    margin-bottom: 15px;
+  }
+input:focus {
+    border: 1px solid #4c49f3;
+  }
+.degree-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+  }
+.degree-field {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+  }
+.temp-field{
+  padding: 10px 10px;
+  word-spacing: 5px;
+}
+option {
+    background-color: #3c39e7;
+    color: #f6f6f6;
+  }
+#convert-btn {
+    background: linear-gradient(to bottom, #a3e8f5, #3cadee);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #f6f6f6;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 12px 80px;
+    transition: all 0.3s ease-in;
+  }
+#convert-btn:hover {
+    background: linear-gradient(to bottom, #918fdd, #4b4a70);
+  }
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(48, 40, 40);
+  color: white;
+  text-align: center;
+}
